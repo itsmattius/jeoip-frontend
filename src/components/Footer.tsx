@@ -13,11 +13,11 @@ const Footer: React.FC<Props> = (props) => {
         className={`d-none d-sm-flex flex-row justify-content-around`}
       >
         <ContactUs/>
-        <Brand row={false} iconSize={75}></Brand>
+        <Brand row={true} iconSize={75}></Brand>
         <Links/>
       </div>
       <div className={`d-block d-sm-none`}>
-        <Brand row={false} iconSize={75}></Brand>
+        <Brand row={true} iconSize={75}></Brand>
         <ContactUs/>
         <Links className="mt-3"/>
       </div>

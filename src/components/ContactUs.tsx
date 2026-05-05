@@ -42,27 +42,6 @@ const ContactUsItem: React.FC<Props & ContactUsItemProps> = (props) => {
 
 const ContactUs = () => {
   const items = [
-    {
-      title: "contact.us.phone",
-      value: "031-34420301",
-      href: "tel:03134420301",
-      icon: "mdi-phone",
-      color: 'black'
-    },
-    {
-      title: "contact.us.email",
-      value: "hi@dnj.co.ir",
-      href: "mailto:hi@dnj.co.ir",
-      icon: "mdi-email",
-      color: 'black'
-    },
-    {
-      title: "contact.us.support",
-      value: "contact.us.click",
-      href: "https://t.me/dnjco",
-      icon: "mdi-headset",
-      color: '#1362C2'
-    },
   ];
 
   return (

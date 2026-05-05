@@ -25,22 +25,6 @@ const Link: React.FC<LinkProps & Props> = (props) => {
 
 const Links: React.FC<Props> = (props) => {
   const links = [
-    {
-      title: "links.dnj.holding",
-      href: "https://dnj.co.ir",
-    },
-    {
-      title: "links.jey.server",
-      href: "https://jeyserver.com",
-    },
-    {
-      title: "links.web.shot",
-      href: "https://web-shot.ir",
-    },
-    {
-      title: "links.jeo.dns",
-      href: "https://jeodns.com",
-    },
   ];
 
   return (
