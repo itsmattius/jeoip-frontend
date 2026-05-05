@@ -24,7 +24,7 @@ const Link: React.FC<LinkProps & Props> = (props) => {
 };
 
 const Links: React.FC<Props> = (props) => {
-  const links = [
+  const links: any[] = [
   ];
 
   return (

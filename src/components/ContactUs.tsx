@@ -41,7 +41,7 @@ const ContactUsItem: React.FC<Props & ContactUsItemProps> = (props) => {
 };
 
 const ContactUs = () => {
-  const items = [
+  const items: any[] = [
   ];
 
   return (
